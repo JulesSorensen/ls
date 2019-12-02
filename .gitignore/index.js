@@ -6,7 +6,7 @@ client.on('ready', () => {
         client.user.setPresence({
         game: {
             name: "Overwatch",
-            type: 1,
+            type: "dnd",
         }
     });
 });
