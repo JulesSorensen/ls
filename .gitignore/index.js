@@ -5,7 +5,6 @@ client.on('ready', () => {
     console.log("Connecté en tant que " + client.user.tag + " !")
         client.user.setPresence({
         game: {
-            name: "Overwatch",
             type: "dnd",
         }
     });
