@@ -5,7 +5,7 @@ client.on('ready', () => {
     console.log("Connecté en tant que " + client.user.tag + " !")
 });
           
-client.user.setGame({
+    client.user.setPresence({
         game: {
             name: "rien...",
             type: 1,
