@@ -3,8 +3,6 @@ const client = new Discord.Client()
 
 client.on('ready', () => {
     console.log("Connecté en tant que " + client.user.tag + " !")
-
-//client.user.setPresence(dnd);
-client.user.setPresence({ game: { name: 'with depression' }, status: 'online' });
+    client.user.setStatus('dnd', 'Made by KwinkyWolf') 
 
 client.login(process.env.TOKEN1)
