@@ -3,13 +3,12 @@ const client = new Discord.Client()
 
 client.on('ready', () => {
     console.log("Connecté en tant que " + client.user.tag + " !")
-});
-          
-    client.user.setPresence({
+        client.user.setPresence({
         game: {
-            name: "rien...",
+            name: "Overwatch",
             type: 1,
         }
     });
+});
 
 client.login(process.env.TOKEN1)
