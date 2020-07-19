@@ -6,4 +6,4 @@ client.on('ready', () => {
     client.user.setPresence({ activity: { name: 'Skyforge' }, status: 'dnd' })
 });
 
-client.login(process.env.TOKEN)
+client.login(process.env.TOKEN);
